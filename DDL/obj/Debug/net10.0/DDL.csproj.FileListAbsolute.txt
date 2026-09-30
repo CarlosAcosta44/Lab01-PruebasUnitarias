@@ -1,0 +1,11 @@
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.GeneratedMSBuildEditorConfig.editorconfig
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.AssemblyInfoInputs.cache
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.AssemblyInfo.cs
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.csproj.CoreCompileInputs.cache
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/bin/Debug/net10.0/DDL.deps.json
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/bin/Debug/net10.0/DDL.dll
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/bin/Debug/net10.0/DDL.pdb
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.dll
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/refint/DDL.dll
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/DDL.pdb
+/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/obj/Debug/net10.0/ref/DDL.dll

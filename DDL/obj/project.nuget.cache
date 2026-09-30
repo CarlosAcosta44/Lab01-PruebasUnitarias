@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fRCVdr5dBKo=",
+  "success": true,
+  "projectFilePath": "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/DDL.csproj",
+  "expectedPackageFiles": [
+    "/home/kairos/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

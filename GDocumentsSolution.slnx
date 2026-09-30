@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ConsoleApp/ConsoleApp.csproj" />
+  <Project Path="DDL/DDL.csproj" />
+  <Project Path="GDocuments.DLL.Tests/GDocuments.DLL.Tests.csproj" />
+</Solution>
