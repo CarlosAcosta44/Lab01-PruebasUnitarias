@@ -97,3 +97,4 @@
 /home/kairos/Proyectos/Unit_Tests/Lab01/GDocuments.DLL.Tests/obj/Debug/net10.0/GDocuments.DLL.Tests.pdb
 /home/kairos/Proyectos/Unit_Tests/Lab01/GDocuments.DLL.Tests/obj/Debug/net10.0/GDocuments.DLL.Tests.genruntimeconfig.cache
 /home/kairos/Proyectos/Unit_Tests/Lab01/GDocuments.DLL.Tests/obj/Debug/net10.0/ref/GDocuments.DLL.Tests.dll
+/home/kairos/Proyectos/Unit_Tests/Lab01/GDocuments.DLL.Tests/obj/Debug/net10.0/GDocuments.DLL.Tests.sourcelink.json

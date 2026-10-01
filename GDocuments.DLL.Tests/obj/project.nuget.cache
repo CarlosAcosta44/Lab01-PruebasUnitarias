@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Xi3Zbj+n0YM=",
+  "dgSpecHash": "TsaYCTvaIOo=",
   "success": true,
   "projectFilePath": "/home/kairos/Proyectos/Unit_Tests/Lab01/GDocuments.DLL.Tests/GDocuments.DLL.Tests.csproj",
   "expectedPackageFiles": [
     "/home/kairos/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",
+    "/home/kairos/.nuget/packages/coverlet.msbuild/10.1.0/coverlet.msbuild.10.1.0.nupkg.sha512",
     "/home/kairos/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",
     "/home/kairos/.nuget/packages/microsoft.net.test.sdk/17.14.1/microsoft.net.test.sdk.17.14.1.nupkg.sha512",
     "/home/kairos/.nuget/packages/microsoft.testplatform.objectmodel/17.14.1/microsoft.testplatform.objectmodel.17.14.1.nupkg.sha512",

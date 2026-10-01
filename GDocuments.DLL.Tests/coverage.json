@@ -1,0 +1,368 @@
+{
+  "DDL.dll": {
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/Correo.cs": {
+      "DDL.Correo": {
+        "System.Void DDL.Correo::Enviar(DDL.IDocumento,System.String)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void DDL.Correo::.ctor()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/Documento.cs": {
+      "DDL.Documento": {
+        "System.Void DDL.Documento::EscribirTitulo(System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void DDL.Documento::EscribirCuerpo(System.String)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String DDL.Documento::GenerarDocumento()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void DDL.Documento::.ctor(DDL.IGeneradorFirma)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/GeneradorFirma.cs": {
+      "DDL.GeneradorFirma": {
+        "System.String DDL.GeneradorFirma::Firma()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/utilidades/ClassEjemplo.cs": {
+      "DDL.Utilidades.ClassEjemplo": {
+        "System.Boolean DDL.Utilidades.ClassEjemplo::SiempreDevuelvoTrue()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/utilidades/UtilidadesMatematicas.cs": {
+      "DDL.Utilidades.UtilidadesMatematicas": {
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Sumar(System.Double,System.Double)": {
+          "Lines": {
+            "10": 9
+          },
+          "Branches": []
+        },
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Restar(System.Double,System.Double)": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Multiplicar(System.Double,System.Double)": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Dividir(System.Double,System.Double)": {
+          "Lines": {
+            "19": 3,
+            "20": 3,
+            "21": 1,
+            "23": 2,
+            "24": 2
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 15,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Modulo(System.Double,System.Double)": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Double DDL.Utilidades.UtilidadesMatematicas::Potencia(System.Double,System.Double)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DDL.Utilidades.UtilidadesMatematicas::EsPar(System.Double)": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 0,
+            "44": 0,
+            "46": 1
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 25,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/Helpers/CategoriaEdadHelper.cs": {
+      "DDL.Helpers.CategoriaEdadHelper": {
+        "System.String DDL.Helpers.CategoriaEdadHelper::ObtenerCategoria(System.Int32)": {
+          "Lines": {
+            "10": 8,
+            "11": 8,
+            "12": 1,
+            "13": 7,
+            "14": 2,
+            "15": 5,
+            "16": 2,
+            "17": 3,
+            "18": 2,
+            "20": 1,
+            "22": 8
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 11,
+              "Offset": 7,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            },
+            {
+              "Line": 13,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 13,
+              "Offset": 27,
+              "EndOffset": 37,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 15,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 15,
+              "Offset": 47,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 17,
+              "Offset": 69,
+              "EndOffset": 71,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 17,
+              "Offset": 69,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/kairos/Proyectos/Unit_Tests/Lab01/DDL/Helpers/EstadoPedidoHelper.cs": {
+      "DDL.Helpers.EstadoPedidoHelper": {
+        "System.String DDL.Helpers.EstadoPedidoHelper::ObtenerEstado(System.Int32)": {
+          "Lines": {
+            "10": 10,
+            "11": 10,
+            "14": 2,
+            "16": 2,
+            "18": 2,
+            "20": 2,
+            "22": 2,
+            "24": 10
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 11,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 11,
+              "Offset": 36,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 11,
+              "Offset": 16,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 26,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 36,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 46,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 26,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 11,
+              "Offset": 46,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}
