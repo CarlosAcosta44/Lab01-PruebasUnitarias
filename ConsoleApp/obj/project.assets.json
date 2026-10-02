@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "DDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/DDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DDL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DDL/1.0.0": {
+      "type": "project",
+      "path": "../DDL/DDL.csproj",
+      "msbuildProject": "../DDL/DDL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "DDL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/kairos/.nuget/packages/": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kairos/Proyectos/Unit_Tests/Lab01/ConsoleApp/ConsoleApp.csproj",
+      "projectUniqueName": "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/ConsoleApp/ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "/home/kairos/Proyectos/Unit_Tests/Lab01/ConsoleApp/ConsoleApp.csproj",
+      "projectPath": "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/ConsoleApp/ConsoleApp.csproj",
       "packagesPath": "/home/kairos/.nuget/packages/",
-      "outputPath": "/home/kairos/Proyectos/Unit_Tests/Lab01/ConsoleApp/obj/",
+      "outputPath": "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/ConsoleApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kairos/.nuget/NuGet/NuGet.Config"
@@ -30,8 +49,13 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/DDL/DDL.csproj": {
+              "projectPath": "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/DDL/DDL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -48,6 +72,7 @@
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "imports": [
           "net461",

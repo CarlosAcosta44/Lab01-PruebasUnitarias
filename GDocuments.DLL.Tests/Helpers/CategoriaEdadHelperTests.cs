@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using DDL.Helpers;
-using GDocuments.DDL.Tests.Helpers.InputTestData;
+using GDocuments.DLL.Tests.Helpers.InputTestData;
 using Xunit;
 
-namespace GDocuments.DDL.Tests.Helpers
+namespace GDocuments.DLL.Tests.Helpers
 {
     public class CategoriaEdadHelperTests
     {
         [Theory]
         [ClassData(typeof(CategoriaEdadData))]
-        public void ObtenerCategoria_ValoresVariados_RetornaCategoriaCorrecta
+        public void ObtenerCategoria_ValoresVariados_T_RetornaCategoriaCorrecta
             (int edad, string esperado)
         {
             //Arrange

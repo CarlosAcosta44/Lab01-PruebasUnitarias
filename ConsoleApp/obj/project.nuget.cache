@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SQNg/KSyQcg=",
+  "dgSpecHash": "Os4Z2LvSQd0=",
   "success": true,
-  "projectFilePath": "/home/kairos/Proyectos/Unit_Tests/Lab01/ConsoleApp/ConsoleApp.csproj",
+  "projectFilePath": "/home/kairos/Proyectos/Unit_Tests/Lab01-c#/ConsoleApp/ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/home/kairos/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
   ],

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace GDocuments.DDL.Tests.Helpers
+namespace GDocuments.DLL.Tests.Helpers
 {
     public class EstadoPedidoHelperFactTests
     {

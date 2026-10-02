@@ -4,7 +4,7 @@ using System.Text;
 using DDL.Helpers;
 using Xunit;
 
-namespace GDocuments.DDL.Tests.Helpers
+namespace GDocuments.DLL.Tests.Helpers
 {
     public class EstadoPedidoHelperTheoryTests
     {

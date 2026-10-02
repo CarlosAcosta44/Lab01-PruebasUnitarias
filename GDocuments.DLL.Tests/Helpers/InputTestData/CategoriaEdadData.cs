@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GDocuments.DDL.Tests.Helpers.InputTestData
+namespace GDocuments.DLL.Tests.Helpers.InputTestData
 {
     internal class CategoriaEdadData : IEnumerable<object[]>
     {

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using DDL.Utilidades;
 using System.Text;
+using GDocuments.DLL.Tests.Helpers.InputTestData;
 
 
 namespace GDocuments.DLL.Tests
@@ -96,6 +97,45 @@ namespace GDocuments.DLL.Tests
             Assert.Equal(-5, resultado);
         }
 
+        // public static IEnumerable<object[]> DatosSuma => new List<object[]>
+        //     {
+        //         new object[] {1, 2,3},
+        //         new object[] {-5, -3, -8},
+        //         new object[] {-7,4,-3},
+        //         new object[] {0,0,0},
+        //         new object[] {-2.5,1.2,-1.3}
+        //         // Se puede agregar mas de un conjunto de datos de prueba
+        //     };
+
+        //=====================================================Suma========================================================================
+        [Theory]
+        [MemberData(nameof(DatosPruebaUtilidadesMatematicas.DatosSuma), MemberType = typeof(DatosPruebaUtilidadesMatematicas))]
+        public void Sumar_DevuelveResultadoCorrectoMemberData(double numero1, double numero2, double esperado)
+        {
+         //Arrange
+
+         //Act
+         var resultado = _calculadora.Sumar(numero1, numero2);   
+
+         //Assert
+         Assert.Equal(esperado, resultado);
+        }
+
+        //===================================================Division======================================================================
+        [Theory]
+        [MemberData(nameof(DatosPruebaUtilidadesMatematicas.DatosDivision), MemberType = typeof(DatosPruebaUtilidadesMatematicas))]
+        public void Dividir_DevuelveResultadoCorrectoMemberData(double numero1, double numero2, double esperado)
+        {
+         //Arrange
+
+         //Act
+         var resultado = _calculadora.Dividir(numero1, numero2);   
+
+         //Assert
+         Assert.Equal(esperado, resultado);
+        }
+
+        //===================================Dividir entre 0===========================================================================
         [Fact]
         public void Dividir_EntreCero_LanzaDivideByZeroException()
         {
@@ -105,14 +145,25 @@ namespace GDocuments.DLL.Tests
             var numero2 = 0;
             //Assert
 
-            
-
-
             //Act
             var exception = Assert.Throws<DivideByZeroException>(() => _calculadora.Dividir(numero1, numero2));
             Assert.Equal("No se puede dividir entre cero", exception.Message);
         }
 
+
+        //==============================================Multiplicacion======================================================
+        [Theory]
+        [MemberData(nameof(DatosPruebaUtilidadesMatematicas.DatosMultiplicacion), parameters: new object[] { 2 }, MemberType = typeof(DatosPruebaUtilidadesMatematicas))]
+        public void Multiplicar_DevuelveResultadoCorrectoMemberData(double numero1, double numero2, double esperado)
+        {
+         //Arrange
+
+         //Act
+         var resultado = _calculadora.Multiplicar(numero1, numero2);   
+
+         //Assert
+         Assert.Equal(esperado, resultado);
+        }
 
     }
 }
