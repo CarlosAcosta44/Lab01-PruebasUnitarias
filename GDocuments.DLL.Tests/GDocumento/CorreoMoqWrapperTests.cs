@@ -4,6 +4,7 @@ using System.Text;
 using Xunit;
 using Moq;
 using System.Net.Mail;
+using DDL;
 
 
 namespace GDocuments.DLL.Tests.GDocumento

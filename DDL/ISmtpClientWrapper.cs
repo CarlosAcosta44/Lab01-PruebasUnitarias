@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net.Mail;
 using System.Text;
 
-namespace DLL
+namespace DDL
 {
     public interface ISmtpClientWrapper
     {
